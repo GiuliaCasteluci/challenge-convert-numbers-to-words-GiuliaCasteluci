@@ -22,10 +22,10 @@
   <body>
     <div class="panel">
       <div class="inner">
-        <input type="text" id="numbers"/>
-        <button> convert </button>
+        <input type=field oninput='document.getElementById("numword").textContent = numberToWords(+this.value)'/>
+        <!-- <button onclick="numword"> convert </button> -->
         <p id="numword"></p>
-      </div>
+     </div>
     </div>
 
     <script src="code.js"></script>

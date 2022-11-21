@@ -49,7 +49,7 @@ function numberToWords(number) {
     return onesName[number];
   } else if (number < 20) {
     return xwy[number.toString()[1]];
-  } else if (number < 100) {
+  } else if (number < 101) {
     return (
       tensName[Math.floor(number / 10)] + " " + onesName[number.toString()[1]]
     );

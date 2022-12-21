@@ -81,8 +81,4 @@ function number2(number) {
     //convert numbers > 1000 to words
     // new logic for numbers > 999
     //fix undefined
-    return  onesName[Math.floor(number / 1000)] + " thousand" + ' ' + tensName[number.toString()[1]] + ' ' + onesName[number.toString()[2]];
-  } else if (number < 1000) {
-    return onesName[Math.floor(number / 100)] + " hundred" + ' ' + tensName[number.toString()[1]] + ' ' + onesName[number.toString()[2]];
-}
-};
+  }}
